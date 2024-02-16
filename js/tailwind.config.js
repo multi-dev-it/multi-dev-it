@@ -8,13 +8,13 @@ tailwind.config = {
         paragraph: "#5D6F7D",
       },
       fontFamily: {
-        'poppins': "'Poppins', sans-serif",
-        'Roboto': "'Roboto', sans-serif",
-        'nunito': "'Nunito', sans-serif;", 
+        poppins: "'Poppins', sans-serif",
+        Roboto: "'Roboto', sans-serif",
+        nunito: "'Nunito', sans-serif;",
       },
       maxWidth: {
-        'container' : '1180px'
-      }
+        container: "1180px",
+      },
     },
   },
 };
