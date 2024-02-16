@@ -6,6 +6,8 @@ tailwind.config = {
         primary: "#04A379",
         heading: "#192D35",
         paragraph: "#5D6F7D",
+        white: "#FFF",
+        
       },
       fontFamily: {
         poppins: "'Poppins', sans-serif",
