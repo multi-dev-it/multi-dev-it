@@ -6,8 +6,7 @@ tailwind.config = {
         primary: "#04A379",
         heading: "#192D35",
         paragraph: "#5D6F7D",
-        white: "#FFF",
-        
+        btncolor : "rgba(4, 163, 121, 0.2)"
       },
       fontFamily: {
         poppins: "'Poppins', sans-serif",
@@ -15,6 +14,10 @@ tailwind.config = {
         nunito: "'Nunito', sans-serif;",
       },
       maxWidth: {
+        'container' : '1180px'
+      },
+      padding: {
+        'section-gap': '100px 0',
         container: "1180px",
       },
     },
