@@ -9,15 +9,16 @@ tailwind.config = {
         btncolor : "rgba(4, 163, 121, 0.2)"
       },
       fontFamily: {
-        'poppins': "'Poppins', sans-serif",
-        'Roboto': "'Roboto', sans-serif",
-        'nunito': "'Nunito', sans-serif;", 
+        poppins: "'Poppins', sans-serif",
+        Roboto: "'Roboto', sans-serif",
+        nunito: "'Nunito', sans-serif;",
       },
       maxWidth: {
         'container' : '1180px'
       },
       padding: {
         'section-gap': '100px 0',
+        container: "1180px",
       },
     },
   },
