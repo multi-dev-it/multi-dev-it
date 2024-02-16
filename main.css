@@ -1,0 +1,35 @@
+
+/*====== feature part start here ========= */
+.progras_bar{
+    margin: 0 auto;
+    background-color: #5D6F7D;
+    height: 5px;
+    width: 150px;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 10px;
+}
+.progras_bar::before{
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #04A379;
+    animation: feature 5s infinite;
+    -webkit-animation: feature 5s infinite;
+    
+   
+}
+@keyframes feature {
+    0%{left:0;}
+    50%{left:135px;}
+    100%{left: 0;}
+}
+.bar2{
+    margin: 0;
+    margin-top: 10px;
+}
