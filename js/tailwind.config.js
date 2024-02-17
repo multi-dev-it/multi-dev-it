@@ -1,6 +1,13 @@
 tailwind.config = {
   theme: {
     extend: {
+      screens: {
+        'xs': '400px',
+        'sm': '576px',
+        'md': '768px',
+        'lg': '992px',
+        'xl': '1180px',
+      },
       colors: {
         navLink: "#022F5D",
         primary: "#04A379",
