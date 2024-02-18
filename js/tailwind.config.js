@@ -2,7 +2,7 @@ tailwind.config = {
   theme: {
     extend: {
       screens: {
-        'xs': '400px',
+        'xs': '360px',
         'sm': '576px',
         'md': '768px',
         'lg': '992px',
